@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displays content  of the current directory in list format
+# where only after the dash is displayed
+
+for i in *
+do
+    echo "$i" | cut -d '-' -f2
+done
