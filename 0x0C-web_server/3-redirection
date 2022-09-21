@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# that installs nginx on web server
+
+apt update -y && apt upgrade -y
+apt install nginx -y
+
+echo "Hello World!" >/var/www/html/index.nginx-debian.html
+
+sed -i '/listen \[::\]:80 default_server;/a\        rewrite ^\/redirect_me https://www.youtube.com/watch?v=dQw4w9WgXcQ permanent;' /etc/nginx/sites-available/default
+
+service nginx restart
