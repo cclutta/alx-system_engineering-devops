@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# fixing an nginx installation that is not listening on port 80
+sed -i "s/sites-enabled/sites-available/" /etc/nginx/nginx.conf
+service nginx restart
