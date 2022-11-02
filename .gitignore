@@ -1,1 +1,5 @@
 task_4_replica_user_create.sql
+__pycache__/
+*-main.py
+0x18-webstack_monitoring/*.txt
+0x18-webstack_monitoring/*.py
