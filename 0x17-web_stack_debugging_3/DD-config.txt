@@ -1,5 +1,0 @@
-48a5efbcabbff5c63b0eb66ea329a8b96a08ab19 application key
-d50f89332ccace863ca640e1a866cfcb
-4ef028b1a4ce79999451e9483ab02b8b api key
-
-DD_SITE="datadoghq.com" DD_API_KEY=3b53f8e9feb588484308b779a23bae97 DD_APP_KEY=48a5efbcabbff5c63b0eb66ea329a8b96a08ab19 python3 "test.py"
